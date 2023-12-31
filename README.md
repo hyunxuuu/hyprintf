@@ -1,6 +1,9 @@
 # hyprintf
 This is a project similar to printf, ensuring low memory footprint while implementing multiple interfaces, thread safety, and additional functionality.
 
+# 文档说明的编码格式
+Chinese GB2312(Simplified)
+
 # 简介
 Hyprintf 是专为嵌入式系统设计的轻量级 printf 替代方案。它在追求高效、低内存占用的同时，提供了简单易用的接口，旨在解决传统 printf 在资源受限环境中的问题。
 Hyprintf 提供了类似于 printf 的接口，允许开发者以格式字符串的形式输出数据到串口或其他目标。通过嵌入式的设计，该库在保持简洁性的同时，仍然提供了一些基本的格式化输出能力以及特别的功能。
