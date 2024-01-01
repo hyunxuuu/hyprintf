@@ -4,6 +4,8 @@
 
 void hyprintf_text_base(void){
 
+	hyprintf("Hello,World!");
+
 	hyprintf("\nhyprintf init!");
 	
 	HY_RET_T err = hyprintf_init();

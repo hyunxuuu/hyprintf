@@ -27,7 +27,7 @@ Hyprintf 提供了类似于 printf 的接口，允许开发者以格式字符串
 ## 描述
 发送格式化输出到各个接口中。
 printf() 函数的调用格式为:  
-`` hprintf("<格式化字符串>", <参量表>); ``
+`` hyprintf("<格式化字符串>", <参量表>); ``
 ## 声明
 下面是 hyprintf() 函数的声明。  
 `` char hyprintf(const char *str, ...) ``
